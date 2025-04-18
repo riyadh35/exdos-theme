@@ -1,8 +1,15 @@
-/* 
-    Theme name : Exdos
+/*
+Theme Name: Exdos
+Themes URI: themepure.net/wp/exdos
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description:Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options,supported by a variety of patterns for different page types, such as services and landing pages, making it idealfor building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Require at least: 6.7
+Tested up to: 6.7
+Require PHP: 7.2
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://gnu.org/licenses/gpl-2.0.html
+Text Domain: Exdos
+Tags: one-column, custom colors, custom menu
 */
-
-body{
-    background-color: red;
-}
-

@@ -2,16 +2,16 @@
     <footer class="tp-theme-black-bg p-relative">
 
         <div class="tp-footer-shape-01 p-absolute">
-            <img src="assets/img/shape/footer/shape-01.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/footer/shape-01.png" alt="">
         </div>
         <div class="tp-footer-shape-02 p-absolute">
-            <img src="assets/img/shape/footer/shape-02.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/footer/shape-02.png" alt="">
         </div>
         <div class="tp-footer-shape-03 p-absolute">
-            <img src="assets/img/shape/footer/shape-03.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/footer/shape-03.png" alt="">
         </div>
         <div class="tp-footer-shape-04 p-absolute">
-            <img src="assets/img/shape/footer/shape-04.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/footer/shape-04.png" alt="">
         </div>
 
         <div class="container">
@@ -19,7 +19,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-3 col-lg-3 col-md-4">
                         <div class="footer-logo mb-30">
-                            <a href="index.html"><img src="assets/img/logo/logo-white.png" alt=""></a>
+                            <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo-white.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-5 col-md-4 d-none d-md-block">
@@ -107,6 +107,4 @@
     </footer>
     <!-- footer end  -->
 
-
-
-    <?php wp_footer(); ?>
+    <?php wp_footer();
